@@ -69,14 +69,14 @@ sourceSets {
 
 dependencies {
     apiCompile 'de.mlessmann:confort-api:1.1.2'
-    apiCompile 'org.hibernate:hibernate-core:5.4.31.Final'
+    apiCompile 'org.hibernate:hibernate-core:5.5.4.Final'
     apiCompile 'org.slf4j:slf4j-api:1.7.30'
 
     compile sourceSets.api.output
 
     compile 'de.mlessmann:confort:1.1.2'
     compile 'io.github.classgraph:classgraph:4.8.105'
-    compile 'org.hibernate:hibernate-core:5.4.24.Final'
+    compile 'org.hibernate:hibernate-core:5.5.4.Final'
     compile 'org.slf4j:slf4j-api:1.7.29'
     compile 'com.zaxxer:HikariCP:4.0.3'
     compile 'com.sun.mail:jakarta.mail:2.0.0'
